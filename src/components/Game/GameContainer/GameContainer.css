@@ -1,0 +1,152 @@
+.footer {
+  height: 100px;
+}
+
+.toolbar {
+  width: 500px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: ivory;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.modal {
+  height: 40vh;
+  width: 40vw;
+  min-height: 240px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid gray;
+  margin-top: 200px;
+}
+
+.modal:focus {
+  outline: 0;
+}
+
+.modalcontainer {
+  height: 100%;
+  width: 100%;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.selectorflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexstyle {
+  color: black;
+  font-family: helvetica;
+}
+
+.flexitem1 {
+  color: black;
+  font-family: helvetica;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.flexitem2 {
+  color: black;
+  font-family: helvetica;
+  padding: 5px;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#modalButton {
+  width: 50%;
+}
+
+.flexitem3 {
+  color: black;
+  font-family: helvetica;
+  padding-left: 10px;
+  align-self: left;
+  margin-top: 16px;
+}
+
+.perfect {
+  color: black;
+  font-family: helvetica;
+}
+
+/* .button {
+  padding-top: 40px;
+  border: none;
+  cursor: pointer;
+  color: gray;
+  font-family: helvetica;
+  align-self: flex-end;
+  padding-right: 10px;
+  margin-bottom: 18px;
+} */
+
+.button {
+  background-color: #38006b;
+  border-radius: 4px;
+  border: 1px solid #38006b;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  min-height: 50px;
+  vertical-align: middle;
+  width: 100%;
+}
+.button:hover {
+  background-color: #F9F9F9;
+  color: #38006b;
+}
+.gameboard {
+  margin-top: 10px;
+}
+
+hr {
+  border: 2px solid black;
+  margin-top: 10px;
+  min-width: 500px;
+}
+
+.ptext {
+  color: black;
+  font-family: helvetica;
+  color: black;
+  padding-right: 12px;
+}
+
+.goldstar {
+  height: 50px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+.achievementcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.rules {
+  color: black;
+  font-size: 0.8em;
+  padding: 0 20px;
+  line-height: 20px;
+}

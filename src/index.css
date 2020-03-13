@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 915px;
+    background-image: url(https://cdn.pixabay.com/photo/2019/06/23/18/15/mandala-4294388_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 code {

@@ -1,0 +1,13 @@
+.settingsIcon {
+  height: 30px;
+  width: 30px
+}
+
+.flexContainer {
+  width: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

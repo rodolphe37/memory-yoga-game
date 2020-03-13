@@ -1,0 +1,18 @@
+.symbol {
+  font-size: 60px;
+  text-align: center;
+}
+
+.symbol > img {
+  width: 82px;
+}
+
+.cardContainer {
+  height: 100px;
+  width: 80px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}

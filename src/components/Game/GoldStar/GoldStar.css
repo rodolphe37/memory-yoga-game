@@ -1,0 +1,49 @@
+.flexContainer {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexContainer:hover .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  position: absolute;
+}
+
+.text {
+  color: gray;
+  font-family: helvetica;
+  text-align: center;
+  padding: 4px;
+}
+
+span {
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  background-color: #d9e9ff;
+  border-radius: 3px;
+  height: 180px;
+  width: 180px;
+  border: 1px solid black;
+  margin-left: 131px;
+  margin-top: 60px;
+}
+
+.animate:active {
+   transform: rotateY(60deg);
+   -webkit-transform: rotateY(60deg);
+   -ms-transform: rotateY(60deg);
+}

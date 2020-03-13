@@ -1,0 +1,27 @@
+.gameboardeasy {
+  height: 547px;
+  width: 500px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.64);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid aliceblue;
+  box-shadow: 0px 0px 18px black;
+}
+
+.gameboarddifficult {
+  height: 540px;
+  width: 915px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.64);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 3%;
+  border: 1px solid aliceblue;
+  box-shadow: 0px 0px 18px black;
+}

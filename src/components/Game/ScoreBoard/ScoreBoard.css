@@ -1,0 +1,14 @@
+.flexo {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 14px;
+  font-family: helvetica;
+  color: gray;
+  padding-right: 3px;
+}

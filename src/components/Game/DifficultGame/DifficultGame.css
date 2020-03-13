@@ -1,0 +1,81 @@
+.flex-container {
+  width: 911px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 540px;
+}
+
+.cardAqua {
+  height: 100px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px;
+  background: url("../../../images/card-background-blue.png") repeat center center;
+}
+
+.cardMagma {
+  height: 100px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px;
+  background: url("../../../images/card-background-colorful.png") repeat center center;
+}
+
+.cardSnow {
+  height: 100px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px;
+  background: url("../../../images/card-background-snow.gif") repeat center center;
+}
+
+.cardClassic {
+  height: 100px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px;
+  background: url("../../../images/card-background-classic.jpg") repeat center center;
+}
+
+.cardNyc {
+  height: 100px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 8px;
+  background: url("../../../images/card-background-nyc.png") repeat center center;
+}
+
+.emptyContainer {
+  padding: 7px 16px 16px 16px;
+}
+
+.emptyCard {
+  height: 100px;
+  width: 80px;
+  padding: 0px;
+}
+
+
