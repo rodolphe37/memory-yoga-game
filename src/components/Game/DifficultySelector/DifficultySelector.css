@@ -71,3 +71,10 @@ button:focus {
   color: yellow;
   font-weight: bold;
 }
+
+.difficult, .easy, .resetbutton {
+  border: none;
+  font-size: 12px;
+  font-family: helvetica;
+  padding: 0 15px;
+}

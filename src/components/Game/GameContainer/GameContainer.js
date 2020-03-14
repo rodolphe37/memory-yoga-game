@@ -172,11 +172,11 @@ class GameContainer extends React.Component {
             <div className='selectorflex'>
               <p className='ptext'>Sélectionnez un arrière-plan de carte:</p>
               <select className='flexitem3' value={this.state.cardBackground} onChange={this.handleBackgroundChange}>
-                <option value="nyc">New York</option>
-                <option value="aqua">Aqua</option>
-                <option value="magma">Magma</option>
-                <option value="classic">Classic</option>
-                <option value="snow">Snow</option>
+                <option value="nyc">Lotus Jaune</option>
+                <option value="aqua">Meditation Sable</option>
+                <option value="magma">Méditation Bleue</option>
+                <option value="classic">Carte Classique</option>
+                <option value="snow">Ohm Marron</option>
               </select>
             </div>
             <button className='button' id="modalButton"onClick={this.closeSettingsModal}>Fermer</button>
