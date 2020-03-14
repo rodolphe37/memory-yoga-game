@@ -148,15 +148,15 @@ class GameContainer extends React.Component {
           contentLabel="Win Dialog Box"
         >
           <div className='modalcontainer'>
-            <h2 className='flexitem1'>You win!</h2>
+            <h2 className='flexitem1'>Bravo !!</h2>
             <div className='timeContainer'>
-              <h2 className='flexitem2'>Time: {this.state.time}</h2>
+              <h2 className='flexitem2'>Temps écoulé: {this.state.time}</h2>
             </div>
             <div className='achievementcontainer'>
               {this.state.perfectGame ? <h2 className='perfect'>Réalisation de la partie parfaite!</h2> : null}
               {this.state.perfectGame ? <img className='goldstar' src={require("../../../images/gold-star.png")} alt=""/> : null}
             </div>
-            <button className='flexitem2' onClick={() => {this.resetGame()}}>Jouer encore?</button>
+            <button className='flexitem2' id="modalButton" onClick={() => {this.resetGame()}}>Jouer encore?</button>
             <button className='button' id="modalButton" onClick={this.closeWinModal}>Fermer</button>
           </div>
         </Modal>
@@ -168,9 +168,9 @@ class GameContainer extends React.Component {
           contentLabel="Settings"
         >
           <div className='modalcontainer'>
-            <h2 className='flexitem1'>Settings</h2>
+            <h2 className='flexitem1'>Configuration</h2>
             <div className='selectorflex'>
-              <p className='ptext'>Select a card background:</p>
+              <p className='ptext'>Sélectionnez un arrière-plan de carte:</p>
               <select className='flexitem3' value={this.state.cardBackground} onChange={this.handleBackgroundChange}>
                 <option value="nyc">New York</option>
                 <option value="aqua">Aqua</option>
@@ -179,7 +179,7 @@ class GameContainer extends React.Component {
                 <option value="snow">Snow</option>
               </select>
             </div>
-            <h2 className='button' onClick={this.closeSettingsModal}>Close</h2>
+            <button className='button' id="modalButton"onClick={this.closeSettingsModal}>Fermer</button>
           </div>
         </Modal>
         <Modal
@@ -197,7 +197,7 @@ class GameContainer extends React.Component {
                 les cartes se retournent. Gagnez une partie parfaite en trouvant toutes les paires sans
                 retourner une carte plus de deux fois.</p>
             </div>
-            <h2 className='button' onClick={this.closeRulesModal}>Close</h2>
+            <button className='button' id="modalButton" onClick={this.closeRulesModal}>Fermer</button>
           </div>
         </Modal>
         <DifficultySelector

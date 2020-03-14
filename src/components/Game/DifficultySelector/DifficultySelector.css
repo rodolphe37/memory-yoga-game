@@ -1,8 +1,8 @@
 .button {
   border: none;
-  font-size: 12px;
+  font-size: 14px;
   font-family: helvetica;
-  color: gray;
+  color: white;
   padding-top: 0px;
   padding-right: 15px;
   padding-bottom: 0px;
@@ -11,6 +11,7 @@
 
 button:focus {
   outline:0;
+  color:red
 }
 
 .container {
@@ -32,7 +33,7 @@ button:focus {
 }
 
 .easy {
-  color: black;
+  color: #f5f2f2;
   font-weight: bold;
   border: none;
   font-size: 12px;
@@ -44,7 +45,7 @@ button:focus {
 }
 
 .difficult {
-  color: black;
+  color: #f5f2f2;
   font-weight: bold;
   border: none;
   font-size: 12px;
@@ -59,7 +60,7 @@ button:focus {
   border: none;
   font-size: 12px;
   font-family: helvetica;
-  color: gray;
+  color: #f5f2f2;
   padding-top: 0px;
   padding-right: 15px;
   padding-bottom: 0px;
@@ -67,6 +68,6 @@ button:focus {
 }
 
 .resetbutton:hover {
-  color: black;
+  color: yellow;
   font-weight: bold;
 }

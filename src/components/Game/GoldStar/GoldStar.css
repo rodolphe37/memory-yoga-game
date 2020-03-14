@@ -19,7 +19,7 @@
 }
 
 .text {
-  color: gray;
+  color: black;
   font-family: helvetica;
   text-align: center;
   padding: 4px;
@@ -33,11 +33,11 @@ span {
 .info {
   display: none;
   position: absolute;
-  background-color: #d9e9ff;
-  border-radius: 3px;
+  background-color: white;
+  border-radius: 6px;
   height: 180px;
   width: 180px;
-  border: 1px solid black;
+  border: 1px solid navajowhite;
   margin-left: 131px;
   margin-top: 60px;
 }
