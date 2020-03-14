@@ -10,6 +10,7 @@ class Game extends React.Component {
             <div className="containerInner">
               <div className="head">
               <img className="logoGame" src={require("../../assets/images/yoga.svg")} alt=""/>
+              <img className="App-logo" src={require("../../assets/images/mandala.png")} alt=""/>
                 <h1 className="header">Memory Yoga Cards Game</h1>
                 <p>By Rodolphe Augusto</p>
               </div>

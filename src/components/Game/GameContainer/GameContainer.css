@@ -1,5 +1,6 @@
 .footer {
-  height: 100px;
+    height: 0px;
+    margin-top: 198px;
 }
 
 .toolbar {
@@ -128,7 +129,7 @@ button, .flexitem2 > #modalButton  {
 
 hr {
   border: 2px solid black;
-  margin-top: 10px;
+  margin-top: -26px;
   min-width: 500px;
 }
 
